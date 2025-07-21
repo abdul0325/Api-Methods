@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 
 export default function JsonApi() {
-
   const [jsonData, setjsonData] = useState([]);
   const navigate = useNavigate();
-  
+
   useEffect(() => {
     getJsonApi();
   }, []);

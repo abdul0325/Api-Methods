@@ -24,6 +24,9 @@ export default function Navbar() {
         <NavLink to="/add" className={navLinkClass}>
           Add New
         </NavLink>
+        <NavLink to="/reducer" className={navLinkClass}>
+          Reducer
+        </NavLink>
       </div>
     </nav>
   );
